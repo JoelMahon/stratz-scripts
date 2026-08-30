@@ -1,0 +1,36 @@
+# Personal secrets and settings
+config.json
+.env
+.env.*
+
+# Generated analysis and downloaded API data
+dota_output/
+exports/
+.cache/
+cache/
+*.tmp
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and local coverage
+*.log
+.coverage
+htmlcov/

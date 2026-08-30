@@ -1,0 +1,21 @@
+[project]
+name = "stratz-dota-analysis-scripts"
+version = "0.1.0"
+description = "Small command-line tools for analysing Dota 2 matches through STRATZ"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+  "tzdata==2026.3; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+png = [
+  "cairosvg==2.9.0",
+]
+
+[tool.uv]
+exclude-newer = "2 weeks"
+
+[tool.uv.audit]
+malware-check = true
