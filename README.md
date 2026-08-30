@@ -26,14 +26,15 @@ Treat these reports as clues, not proof. A worse lane result at a certain time d
 5. [Choosing games or months](#choosing-games-or-months)
 6. [Filtering by weekday](#filtering-by-weekday)
 7. [Lane and team comparisons](#lane-and-team-comparisons)
-8. [Finding hero and item IDs](#finding-hero-and-item-ids)
-9. [Private match data](#private-match-data)
-10. [Cache and privacy](#cache-and-privacy)
-11. [Example output](#example-output)
-12. [Dependency safety](#dependency-safety)
-13. [Adding another analysis script](#adding-another-analysis-script)
-14. [Data source and license](#data-source-and-license)
-15. [Troubleshooting](#troubleshooting)
+8. [Reading the weighted statistics](#reading-the-weighted-statistics)
+9. [Finding hero and item IDs](#finding-hero-and-item-ids)
+10. [Private match data](#private-match-data)
+11. [Cache and privacy](#cache-and-privacy)
+12. [Example output](#example-output)
+13. [Dependency safety](#dependency-safety)
+14. [Adding another analysis script](#adding-another-analysis-script)
+15. [Data source and license](#data-source-and-license)
+16. [Troubleshooting](#troubleshooting)
 
 ## Quick start
 
@@ -149,6 +150,20 @@ The lane program also accepts `--hero-id any` when you want to combine a player'
 The charts use dotted violins faded by 30% when effective sample size is below 3. Each violin keeps its normal series colour, so allied, enemy, and delta data remain easy to identify. Change the top-level `low_sample_effective_n` setting or use `--no-low-sample-marking` if you prefer something else.
 
 Empty time buckets at the beginning and end of charts and tables are removed by default. Empty buckets between populated ones remain visible. Use `--keep-empty-edges` or set `trim_empty_edge_buckets` to `false` to retain all 48 buckets.
+
+## Reading the weighted statistics
+
+The report gives some matches more influence than others, so its sample sizes need a little explanation.
+
+1. **Newer matches count more.** Matches are sorted newest first, then each older match receives a little less weight than the previous one. `newest_half_share` controls the balance: `0.7` means the newest half of the matches receives 70% of the total influence. This uses match order rather than days, so a long break between matches does not create an extra penalty.
+
+2. **Start times are smoothed.** The day is divided into 48 half-hour slots. A match near the middle of a slot mostly or entirely belongs to that slot; a match near an edge is shared with the neighbouring slot. This avoids a match at 12:59 being treated as completely unrelated to one at 13:01. It also means neighbouring slots overlap and should not be read as independent results.
+
+3. **Effective N is the honest weighted sample size.** The ordinary `n` is how many matches contributed. Effective N asks how many equally weighted matches would contain roughly the same amount of information after recency and time smoothing. Equal weights keep effective N close to `n`; a few dominant matches pull it towards 1. Dotted, faded violins mark effective N below the configured threshold, which defaults to 3.
+
+4. **The median is the centre, not the average.** Half of the weighted results lie on either side of the median. The 25th to 75th percentile span contains the middle half, while the 10th to 90th span shows a broader range. Minima and maxima are useful context but are easily moved by one unusual match.
+
+5. **More data does not remove bias.** Effective N measures the strength of the weighted sample, not whether matchmaking, patches, party composition, session fatigue, or another hidden factor caused the pattern. Use the graph to find questions worth investigating, not to declare that a time of day causes better or worse games.
 
 ## Finding hero and item IDs
 
