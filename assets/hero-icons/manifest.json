@@ -1,0 +1,641 @@
+{
+  "metadata_source": "https://raw.githubusercontent.com/odota/dotaconstants/master/build/heroes.json",
+  "artwork_origin": "https://cdn.cloudflare.steamstatic.com",
+  "heroes": {
+    "1": {
+      "name": "Anti-Mage",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/antimage.png",
+      "sha256": "efe7590ff6cc7b953f61d47ea6268c28d63b9f5e2194f30e5144d9fb47faaa08"
+    },
+    "2": {
+      "name": "Axe",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/axe.png",
+      "sha256": "797f7fee904ce7dbf805700986237232b8752cf0eaa0188658b03fd15f0eedd2"
+    },
+    "3": {
+      "name": "Bane",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/bane.png",
+      "sha256": "c71208470620961b953f648d7d8f151ade5d58d1816b77cc5400e39166f17a6b"
+    },
+    "4": {
+      "name": "Bloodseeker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/bloodseeker.png",
+      "sha256": "1be1d561af8362abec86cffed279eb94562a42eb39b4732ce09afb1628aac46c"
+    },
+    "5": {
+      "name": "Crystal Maiden",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/crystal_maiden.png",
+      "sha256": "94803d5967bb4a90d3fd526d23a7ab6d09a9b86b163a5f7ace5eae7d24ee29f2"
+    },
+    "6": {
+      "name": "Drow Ranger",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/drow_ranger.png",
+      "sha256": "42b554c1cab2ae294cf69244c9c3fc36aef217a9dfd207c1a0f7fe26a883572d"
+    },
+    "7": {
+      "name": "Earthshaker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/earthshaker.png",
+      "sha256": "4764184eed4199469385a359d53bb4d1cdcec474a951213532a42c0baaa7b817"
+    },
+    "8": {
+      "name": "Juggernaut",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/juggernaut.png",
+      "sha256": "02b4b81f3a4d1e150fd06b3a7b417aa1b9480a4789a8ef7c04a94fadb4aa5a76"
+    },
+    "9": {
+      "name": "Mirana",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/mirana.png",
+      "sha256": "a3db155178eec34328e861dc6b13cb32006e11752f1717585e44afc52091f178"
+    },
+    "10": {
+      "name": "Morphling",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/morphling.png",
+      "sha256": "e671326b1198b066a5a5a74123695942caab2bc9c7fa6a8bbc834b7335110bf8"
+    },
+    "11": {
+      "name": "Shadow Fiend",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/nevermore.png",
+      "sha256": "84b65f9f3c08da2bcfe7d7617d256747020db62cd85d572ab5d03fb3fd48bff7"
+    },
+    "12": {
+      "name": "Phantom Lancer",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/phantom_lancer.png",
+      "sha256": "940e38b1f1f2d5e703f35f7771c4a8d6e6c87e5d2a40cae086fe81808dce5372"
+    },
+    "13": {
+      "name": "Puck",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/puck.png",
+      "sha256": "f6f470ce1de55053dc0f2af2ddfc27e7e2e1d135eb63174c163390fdc73369b0"
+    },
+    "14": {
+      "name": "Pudge",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/pudge.png",
+      "sha256": "3fbe689de4e8d70bc4b0a4bb200801c5c7510310c636a3f5477982b7957f2599"
+    },
+    "15": {
+      "name": "Razor",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/razor.png",
+      "sha256": "7a385292560d4091be04115379b2e27797d62719db833f879baa72f24e3c30a0"
+    },
+    "16": {
+      "name": "Sand King",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/sand_king.png",
+      "sha256": "cb1f110e6e84c1d4ce5b015ea5022838d071c8d4bce109b7f9127abfdd8c5d0e"
+    },
+    "17": {
+      "name": "Storm Spirit",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/storm_spirit.png",
+      "sha256": "a0e93b32de2aeeb441fc290bdc7de04433bfa8c61683d0345d47858c1a422fc3"
+    },
+    "18": {
+      "name": "Sven",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/sven.png",
+      "sha256": "b84df7179120352558502da5ec1d81700f3da91ac90d144606ef6fb6104d8f50"
+    },
+    "19": {
+      "name": "Tiny",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/tiny.png",
+      "sha256": "0bc87e40f1a1a1745ffd3576daad2b79f352de3d61b63d8766e63951966cf604"
+    },
+    "20": {
+      "name": "Vengeful Spirit",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/vengefulspirit.png",
+      "sha256": "bba1a7607f3c2a236e8833c3ff94799c36b682e3935ee7fa20584ae093bd99b1"
+    },
+    "21": {
+      "name": "Windranger",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/windrunner.png",
+      "sha256": "dc08859b6e38230fabb8a941a4ce860e80d6c4e5d0390891cd4dcfad72795bf8"
+    },
+    "22": {
+      "name": "Zeus",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/zuus.png",
+      "sha256": "6cf5d5bfa3e7089a346a845d166c3bce408d07daa42cb81f35d8d07b605c3ad6"
+    },
+    "23": {
+      "name": "Kunkka",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/kunkka.png",
+      "sha256": "d8368664a07cefa063bd4686c1e51f5535e01195c98cc2cc920c6a2ab420c985"
+    },
+    "25": {
+      "name": "Lina",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/lina.png",
+      "sha256": "8ee8b8d7f9a369f7051f7cd9f53a8b5f34f22081f1c54cdf57a35a0f249c342c"
+    },
+    "26": {
+      "name": "Lion",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/lion.png",
+      "sha256": "721edccb3701f35953578376ab5247a9293b7154b3d0ee3d65a4108ac640f10d"
+    },
+    "27": {
+      "name": "Shadow Shaman",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/shadow_shaman.png",
+      "sha256": "c51112d700f38bdb08479f9f240d96616f526f29b485e9d1a052bb1e6b372215"
+    },
+    "28": {
+      "name": "Slardar",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/slardar.png",
+      "sha256": "8e0d9525ba3b83feaa2f97a5ac7b77d49f901886d289c1aa27422d102960c623"
+    },
+    "29": {
+      "name": "Tidehunter",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/tidehunter.png",
+      "sha256": "0599e8ce73f7293f00508ff252338df0653e1dca240c8ac1e44ed9c7f4d1b356"
+    },
+    "30": {
+      "name": "Witch Doctor",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/witch_doctor.png",
+      "sha256": "f28ea520d164fb09cf5b30b8d47e846cd4e2da1b3fe1fb422aa49eae1acd679e"
+    },
+    "31": {
+      "name": "Lich",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/lich.png",
+      "sha256": "a2483c7630a45635e426e2d9fc50715037a96ab26a79fce4645bf2d25cccf1e9"
+    },
+    "32": {
+      "name": "Riki",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/riki.png",
+      "sha256": "5aab0d0a54216f5e8e341884ab518f0c2d9619959b8c12a1f9fb11a089eb881d"
+    },
+    "33": {
+      "name": "Enigma",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/enigma.png",
+      "sha256": "38971e3019d2c6a1e7422cd0adf59633e2548ed0e309fe8b77ed709c05beffeb"
+    },
+    "34": {
+      "name": "Tinker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/tinker.png",
+      "sha256": "a7fbe1e6280fd210031ee49857bfc8afbff60f646cf9941d55d34f2f52688ef0"
+    },
+    "35": {
+      "name": "Sniper",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/sniper.png",
+      "sha256": "a61831204d23139f22b75e274854a94001839cd63cd0b59c8892127a3337f350"
+    },
+    "36": {
+      "name": "Necrophos",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/necrolyte.png",
+      "sha256": "70f4ce296b4557df9baf6ddcbba7ff624ea566cfca369be47717ccc41fcac7eb"
+    },
+    "37": {
+      "name": "Warlock",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/warlock.png",
+      "sha256": "cf66606d0b75ea52840842cdcc31013348606f636fbbf3f6cafd4599c14ae9eb"
+    },
+    "38": {
+      "name": "Beastmaster",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/beastmaster.png",
+      "sha256": "2c0cd1b3c0802a15cc936b6dfdc440aea373b7db4af5cf64b46d3620daf29f77"
+    },
+    "39": {
+      "name": "Queen of Pain",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/queenofpain.png",
+      "sha256": "d65652df33a2fa0d1f32eca6a8ec8a5b23912d067e1d8ae774c3327095a65e95"
+    },
+    "40": {
+      "name": "Venomancer",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/venomancer.png",
+      "sha256": "daa5408029213ca5e5df11506101a4782c66a887c4adc635bf347991ac10aa8a"
+    },
+    "41": {
+      "name": "Faceless Void",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/faceless_void.png",
+      "sha256": "163f44596ccd17ec8bc957d6269bdff2a74b8a2bcd3674ba240ed0ff067aee0e"
+    },
+    "42": {
+      "name": "Wraith King",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/skeleton_king.png",
+      "sha256": "cf56bcd676be208f27f52384bf128eccdb523fcbab82795612f608813571ec52"
+    },
+    "43": {
+      "name": "Death Prophet",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/death_prophet.png",
+      "sha256": "221a50f25bba10a9df6180a827856777a668074909621fb6ec00cfe29e435443"
+    },
+    "44": {
+      "name": "Phantom Assassin",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/phantom_assassin.png",
+      "sha256": "29df096e3a2e2043e58c9dd8b4229d43cb3ed3971a9ae6dfaee07dea7809db7f"
+    },
+    "45": {
+      "name": "Pugna",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/pugna.png",
+      "sha256": "3a1203c503b4fd42d4d6c778ae4249a7c2596fd88c82446ff9d295edf1e20b02"
+    },
+    "46": {
+      "name": "Templar Assassin",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/templar_assassin.png",
+      "sha256": "9825f32803e311c9532343b5b60e1fb35ddd7f5768986741f05d4f69e66e2901"
+    },
+    "47": {
+      "name": "Viper",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/viper.png",
+      "sha256": "bbb78db4c25f9bde2852d5eb2a23830c080b2b7c0760d12b89c7a73cf6741d68"
+    },
+    "48": {
+      "name": "Luna",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/luna.png",
+      "sha256": "2b1bb063713d35d7656e017e21753ef7d0f4244c3bb7defe0967877f37b9e51b"
+    },
+    "49": {
+      "name": "Dragon Knight",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/dragon_knight.png",
+      "sha256": "7367772b9dd53bcc9f3586b38da4e7abeca54c42815cadab089636238a67171d"
+    },
+    "50": {
+      "name": "Dazzle",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/dazzle.png",
+      "sha256": "1de4c45a7c2c671585ca907422fdaf7f02d9a4ba93f6cebd4f0ad10531b1f4fe"
+    },
+    "51": {
+      "name": "Clockwerk",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/rattletrap.png",
+      "sha256": "97ef73dc4e6038bcc72713f623b69afe5dc25ec6544ba97ebb23ae1a41b18771"
+    },
+    "52": {
+      "name": "Leshrac",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/leshrac.png",
+      "sha256": "db20e7374354b46a1b4b1735458e10dd6ebdf20fcdc1d3f3958ea61d1c2e2462"
+    },
+    "53": {
+      "name": "Nature's Prophet",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/furion.png",
+      "sha256": "2a43d15a637568687e4125768d362c6097ad4eb8297bb54417e8cee6c2008379"
+    },
+    "54": {
+      "name": "Lifestealer",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/life_stealer.png",
+      "sha256": "be34313085fc58641715b5baacebdc32898c9a48cf7ad0fdf9c575e677eea826"
+    },
+    "55": {
+      "name": "Dark Seer",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/dark_seer.png",
+      "sha256": "78d4273a5dfe01014662d6c1a2b5bc84f3c3d2cf3deac2b2a3c05eba8c380efb"
+    },
+    "56": {
+      "name": "Clinkz",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/clinkz.png",
+      "sha256": "79a24e392a0b3b5293a742d9501f9d673b145774b3fcaaa6271b1114e4876fc2"
+    },
+    "57": {
+      "name": "Omniknight",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/omniknight.png",
+      "sha256": "7ed6957add641f098e2855fb6d39ec4952bc79f427619ded188755f116f97e54"
+    },
+    "58": {
+      "name": "Enchantress",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/enchantress.png",
+      "sha256": "f3c828d5040cc0e9be782b88c757363d2dd218e233e3a01ee0b096781af01672"
+    },
+    "59": {
+      "name": "Huskar",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/huskar.png",
+      "sha256": "e606d891b0c4b1c675d2091c7911c5334dabe8c92a1decb0618d6c45038168fd"
+    },
+    "60": {
+      "name": "Night Stalker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/night_stalker.png",
+      "sha256": "a947638a1021e66cb4961a3c10b101491e31d9d2cd1a207fb0dc36928d215289"
+    },
+    "61": {
+      "name": "Broodmother",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/broodmother.png",
+      "sha256": "574f876ad3507bc2259501f21839b3c2731566116a2c30650ac232c432595ea1"
+    },
+    "62": {
+      "name": "Bounty Hunter",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/bounty_hunter.png",
+      "sha256": "0d1ea0eb766104f4c6e576a9dcabc6b0d34adc870212879a6c59705ccd1e91c2"
+    },
+    "63": {
+      "name": "Weaver",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/weaver.png",
+      "sha256": "c263bdd3145e7504f2dc9b03d32764d1d9d30997c4886dd9e894066815461979"
+    },
+    "64": {
+      "name": "Jakiro",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/jakiro.png",
+      "sha256": "2d6abe8011b791199a8c1242801ff901df6e52cba6cb353d3a0a68ea47233cd8"
+    },
+    "65": {
+      "name": "Batrider",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/batrider.png",
+      "sha256": "571ef5110758e0e5c6085fcaf34e761b62a9dde5d5ea1321fb894163a6c0251e"
+    },
+    "66": {
+      "name": "Chen",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/chen.png",
+      "sha256": "3f4aa3da3b2f57637127cc8af57719667b8e8271da4d2d97d58de367611859f6"
+    },
+    "67": {
+      "name": "Spectre",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/spectre.png",
+      "sha256": "e2bf2d20f5e5871d606a3935e5e7b663c11888c7274876c73dcc40200853d42d"
+    },
+    "68": {
+      "name": "Ancient Apparition",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/ancient_apparition.png",
+      "sha256": "fa45870954cfa12651bc19ee13d4f976a0eded45ce6309b2ba3320e97610d378"
+    },
+    "69": {
+      "name": "Doom",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/doom_bringer.png",
+      "sha256": "c32b3898924b03a8ad5ce8cdc4e408143f63e61bae43588f8ad4c21efc72da83"
+    },
+    "70": {
+      "name": "Ursa",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/ursa.png",
+      "sha256": "94d31de7ca8d8f0781b1c4c5328435f260f744a26b32d0552e89cdcb715909ec"
+    },
+    "71": {
+      "name": "Spirit Breaker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/spirit_breaker.png",
+      "sha256": "ebc16bd4fee52df7cc62d051989e81ff9f93abd3422c112e6c9689eda0b07784"
+    },
+    "72": {
+      "name": "Gyrocopter",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/gyrocopter.png",
+      "sha256": "130f5be519ecb8b57dda92267e98dbe6cf3fd3aa4c82cab26d9ffb18818b06c2"
+    },
+    "73": {
+      "name": "Alchemist",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/alchemist.png",
+      "sha256": "03bcf5cd2712ebfe565b152bf7fcb90cd8c89c1b55ba2b29ec06bcf75cc5d3b8"
+    },
+    "74": {
+      "name": "Invoker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/invoker.png",
+      "sha256": "93dc4329fee6e461aa4a9fac029e815fb5db5402790f6cf2d81bd37a39024dd4"
+    },
+    "75": {
+      "name": "Silencer",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/silencer.png",
+      "sha256": "16bae513c75c54e51eaaeed4279d1b164724461a3a267e84d1a36a2f908e2101"
+    },
+    "76": {
+      "name": "Outworld Devourer",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/obsidian_destroyer.png",
+      "sha256": "18081d3886b342dc20d532fefedf1ef9dd03dcdbab586955e8a8c8ae584c22c1"
+    },
+    "77": {
+      "name": "Lycan",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/lycan.png",
+      "sha256": "58299bdd9299cccccda109b3ae40abd87c028bd4a0edde013cd812040c4405cd"
+    },
+    "78": {
+      "name": "Brewmaster",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/brewmaster.png",
+      "sha256": "6b539641eef3dbedf55c89c9a4e7584a27001e05b280be5f3f257a96038f6ff9"
+    },
+    "79": {
+      "name": "Shadow Demon",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/shadow_demon.png",
+      "sha256": "2541924ee0f1dfd3e58c41540ff2df2bd17549dd6d871520ba159b75e3c4b167"
+    },
+    "80": {
+      "name": "Lone Druid",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/lone_druid.png",
+      "sha256": "3395e4054c6774104a822009c48056878ca2d083f0557f4b7fb33b82345f2038"
+    },
+    "81": {
+      "name": "Chaos Knight",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/chaos_knight.png",
+      "sha256": "868edd9f0809764f454e8500ae4d94d05cbd4330aabef4dccc181e87242742a5"
+    },
+    "82": {
+      "name": "Meepo",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/meepo.png",
+      "sha256": "7588ca64dd8dc837f79c32bb001d69f98ad47137305b01198d1e64e4fee66e9a"
+    },
+    "83": {
+      "name": "Treant Protector",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/treant.png",
+      "sha256": "e5c45b1cffc5b632a752ee30e8d0d86c61f32527df57e96b7af1dd750ed73f65"
+    },
+    "84": {
+      "name": "Ogre Magi",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/ogre_magi.png",
+      "sha256": "866e1a54081572e3e4e38d66f26b6376a777b0d2891e97cc5276382c54918fd1"
+    },
+    "85": {
+      "name": "Undying",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/undying.png",
+      "sha256": "8fb4c6fcd665037fc1865c6d6c9f43a93bab3fab87dca665d23a8a343c7726dd"
+    },
+    "86": {
+      "name": "Rubick",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/rubick.png",
+      "sha256": "c72cf683ad040ed9490c760ac82ed907d1783ba5c664ae376c73bfed758ea802"
+    },
+    "87": {
+      "name": "Disruptor",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/disruptor.png",
+      "sha256": "6e06cf39a402857edd89baea87b91048842ab636314e1ab96e1caa8699de82e1"
+    },
+    "88": {
+      "name": "Nyx Assassin",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/nyx_assassin.png",
+      "sha256": "a1d821e847d635ea3218786e715849100b98deed086fe21696f0bf1b16848235"
+    },
+    "89": {
+      "name": "Naga Siren",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/naga_siren.png",
+      "sha256": "54b36ac2278b1572596b8a061c14dab8a1dd35dcdd79d88f5f30c51b60bd2e35"
+    },
+    "90": {
+      "name": "Keeper of the Light",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/keeper_of_the_light.png",
+      "sha256": "1c1d7e0fc46ae2367d13f5aa93b7549051f2a5cf63be8e440db2d3bb7f970a8f"
+    },
+    "91": {
+      "name": "Io",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/wisp.png",
+      "sha256": "06be70690e952c4890f19c31cfb36162bb68268fa81f5f1300b5509423322475"
+    },
+    "92": {
+      "name": "Visage",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/visage.png",
+      "sha256": "d8f720a417f1c48d67702361c316b2c88af2c0e07209335563133c237d095b13"
+    },
+    "93": {
+      "name": "Slark",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/slark.png",
+      "sha256": "e134649bab294d038720a5996d2236135be3b3809edda6fafb9eaafd924b1c02"
+    },
+    "94": {
+      "name": "Medusa",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/medusa.png",
+      "sha256": "8f0bee6e3045b2a277887d0457dbab371bbf30b0d3e52fd13499bf3f040e97b5"
+    },
+    "95": {
+      "name": "Troll Warlord",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/troll_warlord.png",
+      "sha256": "54530db05cdee1fc9509becfb220886d40bc830e8e9ce7856647c0988b020d89"
+    },
+    "96": {
+      "name": "Centaur Warrunner",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/centaur.png",
+      "sha256": "cbe2085ebd1d48c38a5bded20cc95a2be68598c02c83cca2ec5c6ec483c556c9"
+    },
+    "97": {
+      "name": "Magnus",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/magnataur.png",
+      "sha256": "0d2da0fa3bb9c140c609322c0816fcec89c6e75687672aafd048b723568b2af2"
+    },
+    "98": {
+      "name": "Timbersaw",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/shredder.png",
+      "sha256": "d453bd3198bfaa29e24d2dd731c3678b8c22346d37a9d5076dd9f36ce1883b55"
+    },
+    "99": {
+      "name": "Bristleback",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/bristleback.png",
+      "sha256": "ecc9c8356c5c3ca3de3ce4ff7a2827fd03e9719adb311c7d68583065b8d354b0"
+    },
+    "100": {
+      "name": "Tusk",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/tusk.png",
+      "sha256": "7b705b5020b041a106f8a561a1e37d7695356b4e2220e48705f35b856fa20b17"
+    },
+    "101": {
+      "name": "Skywrath Mage",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/skywrath_mage.png",
+      "sha256": "3c613f26f33fd1c4a48698d31dd8a8e1a3fa12438e5b14eafbbac9b7dfa7a3ea"
+    },
+    "102": {
+      "name": "Abaddon",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/abaddon.png",
+      "sha256": "0273840ac02d8860e5210056b4229afe20c16a16b4abcc6f9f4b94165adf6989"
+    },
+    "103": {
+      "name": "Elder Titan",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/elder_titan.png",
+      "sha256": "cac7fda35d54c3a44f3f5c612a5937923e529293ea3ca65e1c9bae96d2c49150"
+    },
+    "104": {
+      "name": "Legion Commander",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/legion_commander.png",
+      "sha256": "29c4e6492e48357b94658e17ad3a8e1573bf8d87a7ff60576be3b19b13b82257"
+    },
+    "105": {
+      "name": "Techies",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/techies.png",
+      "sha256": "5564a9e91f80d59e4f374db13e796053e4759e9729552b5f972c00c847593823"
+    },
+    "106": {
+      "name": "Ember Spirit",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/ember_spirit.png",
+      "sha256": "ff043b3410d6413a309597dbdc21fbbeb1d620276a1f707dee3f4887636e85af"
+    },
+    "107": {
+      "name": "Earth Spirit",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/earth_spirit.png",
+      "sha256": "28c21e76753816eb8c371328b81542f42489d3702191c8661fb7f35556df5c27"
+    },
+    "108": {
+      "name": "Underlord",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/abyssal_underlord.png",
+      "sha256": "16f78ccb723bc856b8a1a267298036dc73ac19375566445ae464658a6c82602e"
+    },
+    "109": {
+      "name": "Terrorblade",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/terrorblade.png",
+      "sha256": "39f6b49cca3ae3670b627faadfe670d3776b43e8661f25db1322ca1ed3cbbdbe"
+    },
+    "110": {
+      "name": "Phoenix",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/phoenix.png",
+      "sha256": "8ec5ba8259a3ceac9c8b3caa46723ee681989845795dda1526a7490e0ea72b7a"
+    },
+    "111": {
+      "name": "Oracle",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/oracle.png",
+      "sha256": "b3f2a409ebc6184f0b62edd0172e6143a8391c3f82faf8fa1d737d0d8766009c"
+    },
+    "112": {
+      "name": "Winter Wyvern",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/winter_wyvern.png",
+      "sha256": "9ff7babedb53857f54f85f40000c92f11dc2ebccfb76c5f9d5a6e92ba645ffe3"
+    },
+    "113": {
+      "name": "Arc Warden",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/arc_warden.png",
+      "sha256": "34f33c7f9612362cc4ba0126ce972afd70a0485c4df68eb4a4fc1e630cebcf4d"
+    },
+    "114": {
+      "name": "Monkey King",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/monkey_king.png",
+      "sha256": "5f0d1c7cf3708f0c9ecf63eea23de89f06c2d67e3a2e5c975f2db7f5eb1b6084"
+    },
+    "119": {
+      "name": "Dark Willow",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/dark_willow.png",
+      "sha256": "47bbbc8be4ce9aa026dfd1c691a8567d5aa429e2152cf5a4edd443c0b3abb833"
+    },
+    "120": {
+      "name": "Pangolier",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/pangolier.png",
+      "sha256": "84b05956389dc96ff662751b077e7c0c722eebb5ce13e8a8181ef8cf65ef155c"
+    },
+    "121": {
+      "name": "Grimstroke",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/grimstroke.png",
+      "sha256": "0853c85502906f27f5bdcf449b914d79ca952e85af78b8cd54e1bbbaa7177191"
+    },
+    "123": {
+      "name": "Hoodwink",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/hoodwink.png",
+      "sha256": "54bf5ea6bb3802901eb963a94e9fb3ea0e103ac1bf5dc282118689de38bd4b77"
+    },
+    "126": {
+      "name": "Void Spirit",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/void_spirit.png",
+      "sha256": "af1ee4421e9578552f00335f068da71c0406369be5dc595260a1688a4da2bf45"
+    },
+    "128": {
+      "name": "Snapfire",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/snapfire.png",
+      "sha256": "3a5eb019956610635f8ee732fabdd1687bf01bc70e48d30cfe499833abadd54c"
+    },
+    "129": {
+      "name": "Mars",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/mars.png",
+      "sha256": "4d83401e2c8ccf19178c252a9ce22c895537b8b1b93fda0351841e5a0fc5b506"
+    },
+    "131": {
+      "name": "Ring Master",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/ringmaster.png",
+      "sha256": "d2aecc93314e0bd09ecadb7acbc2e19cfd38d57a4ddafd67f18bf485977dbb23"
+    },
+    "135": {
+      "name": "Dawnbreaker",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/dawnbreaker.png",
+      "sha256": "89440401b89777512925ec724614e4da879c0e341ae644f57f1e5003b6a8b80e"
+    },
+    "136": {
+      "name": "Marci",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/marci.png",
+      "sha256": "0b10512dcc099675cca43e4a0e4803beb096c40443e31efe96d058c85244d97c"
+    },
+    "137": {
+      "name": "Primal Beast",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/primal_beast.png",
+      "sha256": "74e3cbff72a6f625842ebe82878a458e24f06ef0b3897b501a2381badcbf895e"
+    },
+    "138": {
+      "name": "Muerta",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/muerta.png",
+      "sha256": "a18f13d0c5e25fe2605cd97cb5d7e16260953c5e811a3bca1e3ba8e5c5051d5e"
+    },
+    "145": {
+      "name": "Kez",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/kez.png",
+      "sha256": "b63c7814cfaec310faac91e237e0eeb99e46fef481b3ddd29d6a054b80fa201d"
+    },
+    "155": {
+      "name": "Largo",
+      "source_path": "/apps/dota2/images/dota_react/heroes/icons/largo.png",
+      "sha256": "e32ec67f376819a981c3e994fb2e26e1765fa5ba3c99be549f13b6aafa72988b"
+    }
+  }
+}

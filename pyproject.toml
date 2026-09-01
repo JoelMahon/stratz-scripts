@@ -1,7 +1,7 @@
 [project]
 name = "stratz-dota-analysis-scripts"
 version = "0.1.0"
-description = "Small command-line tools for analysing Dota 2 matches through STRATZ"
+description = "Small tools for analysing and journalling Dota 2 matches through STRATZ"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"

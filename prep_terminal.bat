@@ -2,7 +2,7 @@
 setlocal
 chcp 65001 >nul
 cd /d "%~dp0"
-title STRATZ Dota analysis scripts
+title STRATZ Dota tools
 
 if not exist ".venv\Scripts\python.exe" (
     echo Creating a private Python environment...
@@ -64,8 +64,10 @@ echo.
 echo Try:
 echo   python .\lane_gold.py
 echo   python .\item_winrate.py
+echo   python .\match_diary.py
 echo.
 echo Add -D to run without the settings review.
+echo The match diary opens its GUI directly and does not need -D.
 echo Use --help for all options.
 echo Closing this window ends the prepared environment.
 echo.

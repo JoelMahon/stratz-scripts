@@ -35,8 +35,9 @@ except ImportError:  # pragma: no cover - Python < 3.9, unsupported but clearer 
 
 API_URL = "https://api.stratz.com/graphql"
 STRATZ_API_PAGE = "https://stratz.com/api"
+ACCOUNT_ID_FIELD = "account_id"
 TOKEN_PLACEHOLDER = "PASTE_YOUR_STRATZ_API_TOKEN_HERE"  # nosec B105
-BUILD_ID = "2026.08.30.10"
+BUILD_ID = "2026.09.01.01"
 DEFAULT_PLAYER_ID = 321_580_662
 DEFAULT_PLAYER_NAME = "Yatoro"
 DEFAULT_HERO_ID = 53

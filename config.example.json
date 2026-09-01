@@ -48,5 +48,20 @@
     "unique_output_dir": true,
     "png": false,
     "open_report": false
+  },
+  "match-diary": {
+    "hero_id": "any",
+    "recent_hours": 12.0,
+    "ranked_only": true,
+    "diary_path": "dota_output/match-diary/diary.json",
+    "rich_query_depth": 2,
+    "uk_holiday_subdivision": "GB-ENG",
+    "eu_holiday_countries": "all",
+    "holiday_timeout": 12.0,
+    "browser_mode": "window",
+    "browser_port": 8765,
+    "browser_path": "dota-match-diary",
+    "sort_by": "match_time",
+    "sort_descending": true
   }
 }
