@@ -11,7 +11,7 @@ dependencies = [
 
 [project.optional-dependencies]
 png = [
-  "cairosvg==2.9.0",
+  "cairosvg==2.9.1",
 ]
 
 [tool.uv]
